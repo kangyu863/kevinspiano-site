@@ -179,6 +179,9 @@
       }
       .area .zh { color: var(--gold); font-weight: 600; margin-right: 8px; }
       .areas-note { color: var(--ink-soft); margin-top: 22px; }
+      .areas-sub { flex-basis: 100%; font-weight: 700; margin: 18px 0 0; }
+      .areas-sub:first-child { margin-top: 0; }
+      .areas-sub .zh { color: var(--gold); font-weight: 600; margin-left: 10px; }
 
       /* Video */
       .video-frame { max-width: 860px; margin: 0 auto; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--line); background: #000; }
@@ -297,7 +300,7 @@
           <a class="navlink" href="#about">About 关于</a>
           <a class="navlink" href="#areas">Areas 区域</a>
           <a class="navlink" href="#reviews">Reviews 评价</a>
-          <a class="btn btn-gold btn-call" href="tel:+16268312123">Call (626) 831-2123</a>
+          <a class="btn btn-gold btn-call" href="sms:+16268312123">Text (626) 831-2123</a>
         </nav>
       </div>
     </header>
@@ -313,8 +316,9 @@
           <p class="tagline-en">Professional Piano Tuning &amp; Maintenance Across Greater Los Angeles</p>
           <p class="sub">Mobile, at-home piano service by Kevin Kang (Kang Yu) — professional piano technician serving homes across Greater Los Angeles. 专业上门服务，到您家中为您调音保养。</p>
           <div class="cta-row">
-            <a class="btn btn-gold" href="#booking">Book an Appointment 预约</a>
-            <a class="btn btn-outline" href="tel:+16268312123">Call / Text (626) 831-2123</a>
+            <a class="btn btn-gold" href="sms:+16268312123">Text Kevin 发短信</a>
+            <a class="btn btn-outline" href="#booking">Book an Appointment 预约表单</a>
+            <a class="btn btn-outline" href="tel:+16268312123">Call Now 拨打电话</a>
             <a class="btn btn-outline cta-whatsapp" href="https://wa.me/16268312123" target="_blank" rel="noopener">WhatsApp</a>
           </div>
         </div>
@@ -436,6 +440,7 @@
           <p>Mobile piano tuning and repair services throughout the Greater Los Angeles region, including: 我在大洛杉矶地区提供上门钢琴调音与维修服务，覆盖以下城市：</p>
         </div>
         <div class="areas">
+          <div class="areas-sub">Standard Service Areas<span class="zh">正常上门服务区</span></div>
           <span class="area"><span class="zh">比弗利山庄</span>Beverly Hills</span>
           <span class="area"><span class="zh">圣塔莫妮卡</span>Santa Monica</span>
           <span class="area"><span class="zh">马里布</span>Malibu</span>
@@ -445,8 +450,21 @@
           <span class="area"><span class="zh">贝莱尔</span>Bel Air</span>
           <span class="area"><span class="zh">世纪城</span>Century City</span>
           <span class="area"><span class="zh">西好莱坞</span>West Hollywood</span>
+          <span class="area"><span class="zh">汉考克公园</span>Hancock Park</span>
+          <span class="area"><span class="zh">圣马力诺</span>San Marino</span>
+          <span class="area"><span class="zh">帕萨迪纳</span>Pasadena</span>
+          <span class="area"><span class="zh">南帕萨迪纳</span>South Pasadena</span>
+          <span class="area"><span class="zh">拉卡纳达</span>La Cañada Flintridge</span>
+          <span class="area"><span class="zh">阿凯迪亚</span>Arcadia</span>
+          <span class="area"><span class="zh">圣盖博</span>San Gabriel</span>
+          <span class="area"><span class="zh">阿罕布拉</span>Alhambra</span>
+          <span class="area"><span class="zh">蒙特利公园</span>Monterey Park</span>
+          <span class="area"><span class="zh">格伦代尔</span>Glendale</span>
+          <div class="areas-sub">Extended Areas<span class="zh">远距离服务区</span></div>
+          <span class="area"><span class="zh">钻石吧</span>Diamond Bar</span>
+          <span class="area"><span class="zh">尔湾</span>Irvine</span>
         </div>
-        <p class="areas-note">Don&rsquo;t see your neighborhood? Call or text — service covers the wider Greater Los Angeles area. 不在名单上？欢迎来电或短信咨询，大洛杉矶其他地区也可安排。</p>
+        <p class="areas-note">Extended areas may include a travel fee — please call or text to confirm before booking. 远距离服务区可能收取额外路程费，预约前请来电或短信确认。Don&rsquo;t see your neighborhood? Call or text — service covers the wider Greater Los Angeles area. 不在名单上？欢迎来电或短信咨询，大洛杉矶其他地区也可安排。</p>
       </div>
     </section>
 
@@ -498,13 +516,14 @@
         <div class="sec-head rv">
           <div class="rule"></div>
           <h2>Book an Appointment<span class="zh">预约服务</span></h2>
-          <p>Fill out the booking form, or simply call, text or WhatsApp — same week appointments are often available. 填写下方预约表，或直接来电 / 短信 / WhatsApp，本周内通常即可安排。</p>
+          <p>Fastest: send a text — or book with the form below. Phone calls are welcome too, and same-week appointments are often available. 最快的方式是发短信，也可以用下方表单预约，电话也可以；本周内通常即可安排。</p>
         </div>
         <div class="booking-grid">
           <div class="contact-card rv" id="contact">
             <h3>Contact 联系方式</h3>
-            <p>The fastest way to book is a quick text. 最快的方式：发一条短信。</p>
+            <p>Please reach out in this order: text first, then the booking form — phone calls last, as they may be missed. 联系顺序：短信优先，其次预约表单，电话最后（来电可能漏接）。</p>
             <div class="contact-row"><span class="lbl">Text 短信</span><a href="sms:+16268312123">(626) 831-2123</a></div>
+            <div class="contact-row"><span class="lbl">Form 表单</span><a href="https://forms.gle/1FwejZJD9jRVWJjq8" target="_blank" rel="noopener">Booking Form 在线预约表</a></div>
             <div class="contact-row"><span class="lbl">WhatsApp</span><a href="https://wa.me/16268312123" target="_blank" rel="noopener">(626) 831-2123</a></div>
             <div class="contact-row"><span class="lbl">Call 电话</span><a href="tel:+16268312123">(626) 831-2123</a></div>
             <p style="font-size:.92rem;color:#b9b3a4;border-left:3px solid #d4af37;padding-left:12px;margin:16px 0 2px;line-height:1.6">📱 Text first, please — to avoid spam calls, messages get the fastest reply.<br/>请优先短信 / 信息咨询：骚扰电话太多、来电可能漏接，短信回复最快。</p>
@@ -538,9 +557,9 @@
 
     <!-- Sticky mobile actions -->
     <div class="stickybar">
-      <a class="btn btn-outline" href="tel:+16268312123">Call 电话</a>
+      <a class="btn btn-outline" href="sms:+16268312123">Text 短信</a>
       <a class="btn btn-gold" href="#booking">Book 预约</a>
-      <a class="btn btn-outline" href="https://wa.me/16268312123" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-outline" href="tel:+16268312123">Call 电话</a>
     </div>
   
     <script>
